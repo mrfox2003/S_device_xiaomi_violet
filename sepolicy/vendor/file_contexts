@@ -68,3 +68,7 @@
 # KCAL
 /sys/devices/platform/kcal_ctrl.0(/.*)?                      u:object_r:kcal_dev:s0
 /sys/bus/platform/drivers/kcal_ctrl(/.*)?                    u:object_r:kcal_dev:s0
+
+# Torch brightness control
+/sys/devices/soc/soc:qcom,camera-flash/driver/soc:qcom,camera-flash/leds/torch-light0/max_brightness	u:object_r:sysfs_tbrightness:s0
+/sys/devices/soc/soc:qcom,camera-flash/driver/soc:qcom,camera-flash/leds/torch-light1/max_brightness	u:object_r:sysfs_tbrightness:s0
