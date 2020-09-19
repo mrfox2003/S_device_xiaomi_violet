@@ -13,6 +13,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.andr
 # Charger
 ro.charger.enable_suspend=true
 
+# Set rendering pipeline mode to Vulkan
+debug.hwui.renderer=skiavk
+
 # CNE
 persist.vendor.cne.feature=1
 
