@@ -11,3 +11,7 @@ get_prop(system_app, vendor_default_prop)
 
 # Fps Info
 allow system_app vendor_sysfs_graphics:file { getattr open read };
+
+# Battery Health
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read open getattr };
