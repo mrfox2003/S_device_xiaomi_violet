@@ -170,6 +170,10 @@ PRODUCT_PACKAGES += \
     XiaomiParts \
     VioletParts
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
