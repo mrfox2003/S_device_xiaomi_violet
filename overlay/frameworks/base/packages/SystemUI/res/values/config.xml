@@ -42,3 +42,6 @@
     <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">5.0</item>
 </resources>
 
+    <!-- Show the network traffic monitor on statusbar even if the device has a notch -->
+    <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
+</resources>
