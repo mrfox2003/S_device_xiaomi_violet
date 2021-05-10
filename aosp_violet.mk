@@ -21,10 +21,15 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="violet"
+    PRODUCT_NAME="violet" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210405.005 7181113 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+ro.build.fingerprint=google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys
 
 # TenX Offical Stuffs.
 CUSTOM_BUILD_TYPE := OFFICIAL
