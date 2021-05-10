@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2018-2020 The LineageOS Project
-# Copyright (C) 2021 The EvolutionX Project
+# Copyright (C) 2021 The TenX Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
