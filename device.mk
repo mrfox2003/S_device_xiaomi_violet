@@ -345,7 +345,7 @@ PRODUCT_PACKAGES += \
 # Packages
 PRODUCT_PACKAGES += \
     SimpleGalleryPro \
-    GoogleCameraGo \
+    GoogleCamera \
     RetroMusic
 
 # Perf
