@@ -26,8 +26,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Evolution Offical Stuffs.
-EVO_BUILD_TYPE := OFFICIAL
-EVO_DONATE_URL := https://paypal.me/iammiki786
-EVO_MAINTAINER := YasinAli
-EVO_SUPPORT_URL := https://t.me/EvolutionXViolet
+# TenX Offical Stuffs.
+CUSTOM_BUILD_TYPE := OFFICIAL
+
