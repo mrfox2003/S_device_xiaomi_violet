@@ -13,7 +13,7 @@ LOCAL_OVERRIDES_PACKAGES := Gallery2 GalleryGoPrebuilt
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := GoogleCamera
+LOCAL_MODULE := GoogleCameraGo
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := platform
