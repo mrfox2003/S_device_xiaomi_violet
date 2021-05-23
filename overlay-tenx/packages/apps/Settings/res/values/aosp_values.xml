@@ -22,6 +22,6 @@
      
      
  <!-- Changelogs -->
- <string name="tenx_changelogs_show">https://github.com/Ten-X-Devices/TenX_Changelogs/blob/master/violet/tenx_violet.txt</string>
+ <string name="tenx_changelogs_show">https://github.com/Ten-X-Devices/TenX_Changelogs/blob/master/changelogs/violet/tenx_violet.txt</string>
 
 </resources>
