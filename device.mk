@@ -345,12 +345,6 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
-# Packages
-PRODUCT_PACKAGES += \
-    SimpleGalleryPro \
-    GoogleCameraGo \
-    RetroMusic
-
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client \
