@@ -72,6 +72,7 @@ persist.vendor.delta_time.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+persist.sys.wfd.nohdcp=1
 
 # Touch improvements
 touch.pressure.scale=0.001 
