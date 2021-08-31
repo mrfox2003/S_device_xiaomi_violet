@@ -36,3 +36,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 #Bananadroid Official.
 BANANA_BUILDTYPE := OFFICIAL
 
+# Inherit ANX Camera
+$(call inherit-product, vendor/ANXCamera/config.mk)
