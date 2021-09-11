@@ -66,6 +66,7 @@ KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_HEADERS := kernel/xiaomi/violet
 TARGET_KERNEL_SOURCE := kernel/xiaomi/violet
+TARGET_KERNEL_CONFIG := vendor/violet-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_RAMDISK_OFFSET := 0x01000000
 
