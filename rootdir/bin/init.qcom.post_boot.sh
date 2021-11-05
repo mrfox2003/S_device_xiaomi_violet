@@ -25,6 +25,7 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF TH
 
 # Modify /data/system/storage.xml inorder to fix recovery getting stuck at its logo
+    sleep 1
     rm -f /data/system/storage.xml
     touch /data/system/storage.xml
     chattr +i /data/system/storage.xml
