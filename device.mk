@@ -346,7 +346,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
     NotchBarKiller \
     VShapedNotch
 
