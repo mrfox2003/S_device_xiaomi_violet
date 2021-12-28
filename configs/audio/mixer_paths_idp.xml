@@ -2691,6 +2691,11 @@
         <path name="headset-mic" />
     </path>
 
+    <path name="speaker-and-headphones-hifi-filter">
+        <path name="headphones" />
+        <path name="speaker" />
+    </path>
+
     <path name="speaker-and-headphones">
         <path name="headphones" />
         <path name="speaker" />
