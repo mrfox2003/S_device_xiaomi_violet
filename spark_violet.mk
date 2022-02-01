@@ -1,4 +1,5 @@
 # Copyright (C) 2020-2021 Wave-OS
+# Copyright (C) 2020-2021 Spark-OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common WaveOS stuff.
+# Inherit some common SparkOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/wave/configs/common.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-PRODUCT_NAME := wave_violet
+PRODUCT_NAME := spark_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -34,3 +35,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Spark OS stuffs
+WITH_GAPPS := true
+SPARK_BUILD_TYPE := OFFICIAL

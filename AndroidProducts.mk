@@ -1,4 +1,5 @@
 # Copyright (C) 2020-2021 Wave-OS
+# Copyright (C) 2020-2021 Spark-OS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_violet.mk
+    $(LOCAL_DIR)/spark_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_violet-user \
-    wave_violet-userdebug \
-    wave_violet-eng
+    spark_violet-user \
+    spark_violet-userdebug \
+    spark_violet-eng
