@@ -43,3 +43,9 @@ ro.recovery.ui.margin_height=48
 
 # WiFi
 wifi.interface=wlan0
+
+# Spark-OS
+ro.spark.device.name=Redmi Note 7 Pro
+ro.spark.group.url=https://t.me/sparkosviolet
+ro.spark.maintainer=Niranjan BR
+ro.spark.maintainer.username=mrfox2003
