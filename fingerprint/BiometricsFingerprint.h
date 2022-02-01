@@ -62,7 +62,10 @@ public:
     Return<void> onFingerDown(uint32_t x, uint32_t y, float minor, float major) override;
     Return<void> onFingerUp() override;
 
-private:
+    Return<void> onShowUdfpsOverlay() override;
+    Return<void> onHideUdfpsOverlay() override;
+
+  private:
     static fingerprint_device_t* openHal();
     static void notify(const fingerprint_msg_t *msg); /* Static callback for legacy HAL implementation */
     static Return<RequestStatus> ErrorFilter(int32_t error);
