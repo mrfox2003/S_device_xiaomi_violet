@@ -1,0 +1,3 @@
+# ADB props
+ro.secure=1
+ro.debuggable=0
