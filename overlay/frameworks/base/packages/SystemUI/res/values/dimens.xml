@@ -16,7 +16,7 @@
 -->
 <resources>
     <!-- the padding on the top of the statusbar (usually 0) -->
-    <dimen name="status_bar_padding_top">1dp</dimen>
+    <dimen name="status_bar_padding_top">1.5dp</dimen>
 
     <!-- Margin start of the system icons super container -->
     <dimen name="system_icons_super_container_avatarless_margin_end">33px</dimen>
@@ -29,6 +29,8 @@
 
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
+
+    <dimen name="status_bar_header_height_keyguard">80.0px</dimen>
 
     <!-- Physical power button and FP sensor location -->
     <dimen name="physical_power_button_center_screen_location_y">950px</dimen>
