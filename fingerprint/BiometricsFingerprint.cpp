@@ -418,13 +418,7 @@ Return<void> BiometricsFingerprint::onFingerDown(uint32_t /* x */, uint32_t /* y
 Return<void> BiometricsFingerprint::onFingerUp() {
     return Void();
 }
-Return<void> BiometricsFingerprint::onShowUdfpsOverlay() {
-    return Void();
-}
 
-Return<void> BiometricsFingerprint::onHideUdfpsOverlay() {
-    return Void();
-}
 } // namespace implementation
 }  // namespace V2_3
 }  // namespace fingerprint
