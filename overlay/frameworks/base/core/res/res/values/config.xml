@@ -632,4 +632,7 @@
     <!-- List of comma separated package names for which we the system will not show crash like
          tts, etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
+    <!-- To boost the brightness on a triple press of the power button -->
+    <integer name="config_triplePressOnPowerBehavior">2</integer>
 </resources>
