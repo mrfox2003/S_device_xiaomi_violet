@@ -26,4 +26,8 @@
         where the exact bezier curve cannot be retrieved.  This value will be subtracted from
         rounded_corner_radius to more accurately provide a "radius" for the rounded corner. -->
     <dimen name="rounded_corner_radius_adjustment">19px</dimen>
+
+    <!-- Height of the status bar.
+    Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead. -->
+    <dimen name="status_bar_height">80.0px</dimen>
 </resources>
