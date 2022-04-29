@@ -22,5 +22,10 @@ It was announced in February 2019 and released in March 2019.
 ## Device picture
 
 ![Xiaomi Redmi Note 7 Pro](https://moven.bg/img/cms/Redmi%20note%207/5.jpg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmrfox2003%2FS_device_xiaomi_violet.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmrfox2003%2FS_device_xiaomi_violet?ref=badge_shield)
 
 Copyright (C) 2020-2021 Spark-OS
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmrfox2003%2FS_device_xiaomi_violet.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmrfox2003%2FS_device_xiaomi_violet?ref=badge_large)
