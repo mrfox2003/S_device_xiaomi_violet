@@ -19,26 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Awaken stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit some common Voltage OS stuff.
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Boot Animation Resolution
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# GApps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
-
-# Google Recorder
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
-# Official
-AWAKEN_BUILD_TYPE := OFFICIAL
-
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
-PRODUCT_NAME := awaken_violet
+PRODUCT_NAME := voltage_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -49,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="violet"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Voltage OS Official
+VOLTAGE_BUILD_TYPE := OFFICIAL
