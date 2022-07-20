@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Voltage OS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common Spark OS stuff.
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-PRODUCT_NAME := voltage_violet
+PRODUCT_NAME := spark_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
@@ -34,5 +34,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Voltage OS Official
-VOLTAGE_BUILD_TYPE := OFFICIAL
+# Spark OS stuffs
+WITH_GAPPS := true
+SPARK_BUILD_TYPE := OFFICIAL
+TARGET_NO_PREBUILT_CAMERA := true

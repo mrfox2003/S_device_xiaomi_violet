@@ -44,6 +44,12 @@ telephony.lteOnCdmaDevice=1
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
+# Spark-OS
+ro.spark.device.name=Redmi Note 7 Pro
+ro.spark.group.url=https://t.me/sparkosviolet
+ro.spark.maintainer=Niranjan BR
+ro.spark.maintainer.username=mrfox2003
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
